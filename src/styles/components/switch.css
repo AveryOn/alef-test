@@ -1,0 +1,26 @@
+/* BASE */
+
+
+:root {
+    --switch-bg: white;
+    --switch-checked-bg: var(--primary-color);
+    --switch-hover-bg: white;
+    --switch-handle-bg: #01a9fd72;
+    --switch-handle-hover-bg: #01a9fd98;
+    --switch-handle-checked-bg: rgb(42, 42, 42);
+    --switch-border-hover: #28a9ea;
+
+    /* Root */
+    --p-toggleswitch-background: var(--switch-bg) !important;
+    --p-toggleswitch-hover-background: var(--switch-hover-bg) !important;
+    --p-toggleswitch-checked-background: var(--switch-checked-bg) !important;
+    --p-toggleswitch-checked-hover-background: var(--primary-hover-color) !important;
+    --p-toggleswitch-border-color: var(--primary-color) !important;
+    --p-toggleswitch-hover-border-color: var(--switch-border-hover) !important;
+    /* Handle */
+    --p-toggleswitch-handle-hover-background: var(--switch-handle-hover-bg) !important;
+    --p-toggleswitch-handle-background: var(--switch-handle-bg) !important;
+    --p-toggleswitch-handle-disabled-background: var(--color-background) !important;
+    --p-toggleswitch-handle-checked-background: var(--switch-handle-checked-bg) !important;
+}
+

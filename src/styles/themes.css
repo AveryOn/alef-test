@@ -1,0 +1,42 @@
+
+/* Установка Темной темы */
+.dark-theme {
+    --color-text: rgb(255, 255, 255);
+    --color-background: rgb(37, 37, 37);
+    --nav-color: rgb(165, 165, 165);
+    --topbar-border-color: rgba(165, 165, 165, 0.285);
+    --secondary-color: rgb(126, 126, 126);
+    --secondary-bg: #383838;
+
+    /* Input */
+    --input-border-color: #f1f1f125;
+    --input-inner-color: rgb(255, 255, 255);
+    --input-label-color: rgba(255, 255, 255, 0.455);
+    --input-arrow-btn-bg: rgba(91, 91, 91, 0.609);
+
+    /* Btn */
+        /* Base */
+        --btn-color: rgb(255, 255, 255);
+        /* Outline */
+        --btn-outline-bg: var(--color-background);
+        --btn-outline-hover-bg: rgb(52, 52, 52);
+        /* Filled */
+        --btn-filled-color: var(--color-background);
+        --btn-filled-disabled-color: rgb(65, 65, 65);
+        /* Text */
+        --btn-text-hover-color: #53bbf0;
+
+
+    /* Footer */
+    --footer-bg: rgb(40, 40, 40);
+    transition: color 0.2s, background-color 0.5s;
+}
+
+/* Установка Светлой темы */
+.light-theme {
+    --color-text: rgb(42, 42, 42);
+    --color-background: white;
+    --topbar-border-color: #1111111A;
+    --nav-color: #1111117A;
+    transition: color 0.5s, background-color 0.2s;
+}

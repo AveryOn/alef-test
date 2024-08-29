@@ -1,0 +1,22 @@
+
+:root {
+    /* Base */
+    --btn-color: var(--primary-color);
+    --btn-transition: 0.4s;
+    --invalid-color: rgb(255, 156, 156);
+    /* Outline */
+    --btn-outline-bg: var(--color-background);
+    --btn-outline-hover-bg: var(--primary-light-hover-color);
+    --btn-border-color: var(--primary-color);
+    /* Filled */
+    --btn-filled-color: #ffffff;
+    --btn-filled-bg: var(--primary-color);
+    --btn-filled-border-hover-color: var(--primary-hover-color);
+    --btn-filled-hover-bg: var(--primary-hover-color);
+    --btn-filled-disabled-bg: var(--primary-disabled-color);
+    --btn-filled-disabled-color: #ffffff;
+    /* Text */
+    --btn-text-color: var(--primary-color);
+    --btn-text-bg: rgba(0,0,0,0);
+    --btn-text-hover-color: #53bbf0;
+}

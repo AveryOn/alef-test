@@ -1,0 +1,41 @@
+
+:root {
+    --color-text: #111111;
+    --color-background: white;
+    --color-hover-background: rgb(237, 237, 237);
+    --font: "Montserrat", sans-serif;
+    --primary-color: #01A7FD;
+    --primary-disabled-color: #72d0fe;
+    --primary-hover-color: #47c1fe;
+    --secondary-color: #1111117A;
+    --secondary-bg: #F1F1F1;
+    --primary-light-hover-color: #289cd626;
+
+    --topbar-border-color: #1111111A;
+    --nav-color: #1111117A;
+
+    --footer-bg: #FAFAFA;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    color: var(--color-text);
+    background-color: var(--color-background);
+    transition: color 0.5s, background-color 0.5s;
+    line-height: 1.6;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

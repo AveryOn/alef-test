@@ -1,0 +1,16 @@
+@import url(./base.css);
+@import url(./media.css);
+@import url(./themes.css);
+@import url(./components/index.css);
+
+html {
+    color: var(--color-text);
+    background-color: var(--color-background);
+}
+#app {
+    min-height: 100vh !important;
+    color: var(--color-text);
+    background-color: var(--color-background);
+}
+
+

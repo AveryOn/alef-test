@@ -1,0 +1,12 @@
+
+:root {
+    --input-border-color: #F1F1F1;
+    --input-radius: 4px;
+    --input-label-size: 14px;
+    --input-inner-color: #111111;
+    --input-label-color: #1111117A;
+    --input-label-transition: 0.25s;
+    --input-inner-font-size: 16px;
+    --input-arrow-btn-bg: rgba(216, 216, 216, 0.334);
+    --input-arrow-btn-hover-bg: rgba(201, 201, 201, 0.35); 
+}
